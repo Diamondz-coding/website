@@ -26,12 +26,15 @@ a:hover{
     left: 0;
     overflow: hidden;
     position: fixed;
+    @media screen (max-width 490px){ }
+    
     
 }
 #header ul{
     list-style: none;
     float: right;
     overflow: hidden;
+    @media screen (max-width 490px){ }
     
     
 
@@ -44,7 +47,7 @@ a:hover{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     overflow: hidden;
-    
+    @media screen (max-width 490px){ }
     
 }
 #header h1{
@@ -60,14 +63,14 @@ a:hover{
     left: 50%;
     margin-top: -100px;
     margin-left: -200px;
-    
+    @media screen (max-width 490px){ }
     
  
 }
 #bodytext{
     background-color: rgb(248, 248, 248);
     overflow: hidden;
-    
+    @media screen (max-width 490px){ }
 
 }
 #addserver{
@@ -85,7 +88,7 @@ a:hover{
     overflow: hidden;
     border: 10px solid rgb(53, 53, 53);
     color: rgb(53, 53, 53);
-
+    @media screen (max-width 490px){ }
    
     
     
@@ -103,8 +106,10 @@ a:hover{
     overflow: hidden;
     font-size: 25px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   
+    @media screen (max-width 490px){ }
 }
-
+#test{
+    
+}
 
 
